@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxFramework", "RxFramework\RxFramework.csproj", "{CC5523E6-64ED-4F8C-8C0B-FEC777792F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfForRx", "WpfForRx\WpfForRx.csproj", "{1EECC608-8FE3-48AE-BB96-F66F08290E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxTest", "RxTest\RxTest.csproj", "{5E6C759E-F14A-4DAE-85AD-5DEAA416F6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5523E6-64ED-4F8C-8C0B-FEC777792F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5523E6-64ED-4F8C-8C0B-FEC777792F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5523E6-64ED-4F8C-8C0B-FEC777792F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5523E6-64ED-4F8C-8C0B-FEC777792F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EECC608-8FE3-48AE-BB96-F66F08290E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EECC608-8FE3-48AE-BB96-F66F08290E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EECC608-8FE3-48AE-BB96-F66F08290E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EECC608-8FE3-48AE-BB96-F66F08290E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6C759E-F14A-4DAE-85AD-5DEAA416F6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6C759E-F14A-4DAE-85AD-5DEAA416F6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6C759E-F14A-4DAE-85AD-5DEAA416F6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6C759E-F14A-4DAE-85AD-5DEAA416F6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
