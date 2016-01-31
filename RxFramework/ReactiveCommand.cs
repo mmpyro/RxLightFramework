@@ -36,8 +36,15 @@ namespace RxFramework
 
         public void OnNext(T value)
         {
-            if(_canExecute(value))
-                _execute(value);
+            try
+            {
+                if (_canExecute(value))
+                    _execute(value);
+            }
+            catch(Exception ex)
+            {
+                OnError(ex);
+            }
         }
 
         public void OnError(Exception error)
