@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Reactive.Linq;
 using RxFramework;
 using System.Windows;
@@ -9,7 +8,7 @@ namespace WpfForRx
     public class Vm : ReactiveObject
     {
 
-        private string _value = "asa";
+        private string _value = "type some text";
         private PropertyObserver<Vm,long> _interval;
 
         public string Value
