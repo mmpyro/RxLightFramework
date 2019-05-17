@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RxLightFramework</id>
+    <version>$version$</version>
+    <title>RxLightFramework</title>
+    <authors>mmpyro</authors>
+    <owners>Michal Marszalek</owners>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/mmpyro/RxLightFramework</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rx wrapper which allow use Reactive extension in WPF with MVVM pattern</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Rx WPF</tags>
+  </metadata>
+</package>
